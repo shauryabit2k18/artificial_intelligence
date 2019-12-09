@@ -1,6 +1,7 @@
 # AI Nanodegree: Project 1
 
 ## Sudoku Solver
+![1](https://github.com/shauryabit2k18/udacity_artificial_intelligence/blob/master/module1/Capture.PNG)
 In Project 1 of Artificial Intelligence Nanodegree we leverage techniques such as constraint propagation and depth first search search to solve sudoku puzzles. I’m assuming that everyone reading this post understands the rules of sudoku — If not, don’t worry, I was not completely familiar with the game before the project.
 
 ## Setting UP and Encoding the board
