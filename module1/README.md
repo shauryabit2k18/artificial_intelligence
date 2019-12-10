@@ -14,3 +14,17 @@ Fortunately, the project provided a function that displays the sudoku board once
 ![3](https://github.com/shauryabit2k18/udacity_artificial_intelligence/blob/master/module1/Capture3.PNG)
 
 The next step is to assign a value to the boxes that have a nonnumerical value. More specifically, replace all boxes that contain ‘.’ with ‘123456789’.
+
+## Constraint Propagation
+Constraint Propagation is a constraint satisfaction technique that reduces search space by using local constraints. As mentioned in the first paragraph, we are going to implement depth first search so reducing the search size is very important for fast and efficient puzzle solving. For this sudoku project, each box has constraints (I kind of think of them as rules) that can lead us to a solved sudoku puzzle.
+
+## Constraint: Elimination
+A rule in Sudoku is that a box cannot have the same value as one of it’s peers (other boxes in it’s 3x3 square, row, and column). We can begin to use this rule as a constraint and eliminate possibilities with the boxes that have ‘123456789’ as their value.
+
+![4](https://github.com/shauryabit2k18/udacity_artificial_intelligence/blob/master/module1/Capture4.PNG)
+
+Writing a function for this constraint instantly reduces the values on the board (See Below).
+
+![5](https://github.com/shauryabit2k18/udacity_artificial_intelligence/blob/master/module1/Capture5.PNG)
+
+Obviously, this technique does not reduce the values of all the boxes to a single possibility so we must employ other strategies.
