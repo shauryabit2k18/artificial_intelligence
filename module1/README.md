@@ -43,3 +43,13 @@ For this project we leveraged Depth First Search to solve a sudoku puzzle. This 
 ![7](https://github.com/shauryabit2k18/udacity_artificial_intelligence/blob/master/module1/Capture7.PNG)
 
 Udacity provides excellent images to visualize depth first search. With this search technique we are essentially iterating through all the reduced possibilities to solve the sudoku puzzle (Starting with boxes with the least amount of possibilities first).
+
+## Constraint: Naked Twins
+One of the requirements of project 1 was to implement the naked twins sudoku strategy. More specifically, when a box has two possible combinations and shares the same possible combinations with another peer (hence naked twins), either of those combination values can be removed from other peers. In the puzzle below two peers have and share the same two possible combinations [2,3].
+
+![8](https://github.com/shauryabit2k18/udacity_artificial_intelligence/blob/master/module1/Capture8.PNG)
+
+Naked twins strategy enables us to eliminate 2 and 3 from the other peers in this column.
+
+![9](https://github.com/shauryabit2k18/udacity_artificial_intelligence/blob/master/module1/Capture9.PNG)
+
