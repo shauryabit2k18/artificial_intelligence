@@ -28,3 +28,11 @@ Writing a function for this constraint instantly reduces the values on the board
 ![5](https://github.com/shauryabit2k18/udacity_artificial_intelligence/blob/master/module1/Capture5.PNG)
 
 Obviously, this technique does not reduce the values of all the boxes to a single possibility so we must employ other strategies.
+
+## Constraint: Only Choice
+To reduce the possible combinations of each box further we employ only choice strategy as a constraint. This strategy works by searching for boxes that have a possible combination that are not seen by other peers.
+
+![6](https://github.com/shauryabit2k18/udacity_artificial_intelligence/blob/master/module1/Capture6.PNG)
+
+The 3rd box in column three contains [1,4,7]. When observing other boxes in the 3x3 square you can notice that none of them have 1 as a possibility. Therefore, the 3rd box in column 3 has to be 1.
+We can now use elimination and iteratively use only choice to solve the sudoku puzzle. To quickly and efficiently solve the puzzle we implement depth first search.
