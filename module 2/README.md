@@ -17,3 +17,9 @@ Observe the bottom-left portion of the search tree — the bottom nodes are maxi
 Thus far in the Nanodegree we’ve been exploring search algorithms that enable us to brute force winning outcomes based on a specific game state. Some games have a very large game-state space (same is true for isolation game) — which would make traditional depth-first search an inefficient solution to find a winning outcome. In some cases, we may want to search each possible outcome of a game move while returning an optimal next move in a reasonable time. That’s where iterative deepening comes into play. With iterative deepening, you define the minimum search depth; if time persists, another depth will be explored.
 
 ![3](https://github.com/shauryabit2k18/udacity_artificial_intelligence/blob/master/module%202/3.gif)
+
+## Evaluation Functions:
+
+Once the minimum search depth is reached, we must evaluate each node and provide a score. For example, an evaluation function could be the number of moves a player has available — The below figure shows an example search tree with the number of moves available in each game state.
+
+![3](https://github.com/shauryabit2k18/udacity_artificial_intelligence/blob/master/module%202/3.gif)
