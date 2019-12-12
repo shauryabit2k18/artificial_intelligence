@@ -22,4 +22,6 @@ Thus far in the Nanodegree we’ve been exploring search algorithms that enable 
 
 Once the minimum search depth is reached, we must evaluate each node and provide a score. For example, an evaluation function could be the number of moves a player has available — The below figure shows an example search tree with the number of moves available in each game state.
 
-![3](https://github.com/shauryabit2k18/udacity_artificial_intelligence/blob/master/module%202/3.gif)
+![4](https://github.com/shauryabit2k18/udacity_artificial_intelligence/blob/master/module%202/4.png)
+
+For this project I’ve designed and implemented three evaluation functions.
