@@ -18,6 +18,16 @@ Thus far in the Nanodegree we’ve been exploring search algorithms that enable 
 
 ![3](https://github.com/shauryabit2k18/udacity_artificial_intelligence/blob/master/module%202/3.gif)
 
+## Isolation Game Tree with Leaf Values
+
+![5](https://github.com/shauryabit2k18/udacity_artificial_intelligence/blob/master/module%202/5.svg)
+
+Take some time to study the game tree, then continue on.
+
+Note the second subtree at Level 1 (where O picks the top, middle cell) - it leads to a lot of losses (-1 values).
+
+![6](https://github.com/shauryabit2k18/udacity_artificial_intelligence/blob/master/module%202/6.png)
+
 ## Evaluation Functions:
 
 Once the minimum search depth is reached, we must evaluate each node and provide a score. For example, an evaluation function could be the number of moves a player has available — The below figure shows an example search tree with the number of moves available in each game state.
